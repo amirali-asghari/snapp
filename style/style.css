@@ -1,0 +1,265 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../vazir-font-v16.1.0/Vazir.woff2);
+}
+
+@font-face {
+    font-family: vazir-bold;
+    src: url(../vazir-font-v16.1.0/Vazir-Bold.woff2);
+}
+
+@font-face {
+    font-family: vazir-thin;
+    src: url(../vazir-font-v16.1.0/Vazir-Thin.woff2);
+}
+
+@font-face {
+    font-family: vazir-light;
+    src: url(../vazir-font-v16.1.0/Vazir-Light.woff2);
+}
+
+@font-face {
+    font-family: vazir-med;
+    src: url(../vazir-font-v16.1.0/Vazir-Medium.woff2);
+}
+
+
+
+body {
+    font-family: vazir;
+}
+
+main header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+main header .nav1 {
+    padding: 0 166px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    align-self: flex-start;
+    z-index: 1;
+}
+
+main header .nav2{
+    display: none;
+}
+
+main header .nav1 ul {
+    min-width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+main header .nav1 ul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+main header .nav1 ul li a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #3f3f3f;
+    font-size: 16px;
+}
+
+main .hero {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21aa58;
+    position: relative;
+    top: 10vh;
+}
+
+main .hero .rigth-part {
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    padding: 10px 180px 10px 10px;
+}
+
+main .hero .rigth-part h1 {
+    padding: 0 0 5px 0;
+    font-size: 33px;
+    color: white;
+    font-family: vazir-bold;
+}
+
+main .hero .rigth-part p {
+    font-size: 20px;
+    color: #fff;
+}
+
+main .hero .rigth-part .form .box {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    /* align-items: ; */
+    position: relative;
+}
+
+main .hero .rigth-part .form .box span {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    border-radius: 50%;
+}
+
+main .hero .rigth-part .form .box input[type=number] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+main .hero .rigth-part .form .box input[type=number]::placeholder {
+    color: #dddddd;
+}
+
+main .hero .rigth-part .form {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    top: 0px; 
+}
+
+main .hero .rigth-part .form input[type=submit] {
+    width: 150px;
+    height: 40px;
+    color: #21aa58;
+    background-color: #fff;
+    border: none;
+    font-family: vazir-med;
+    border-radius: 5px;
+}
+
+main .hero .rigth-part .button button{
+    /* margin-top: 130px; */
+    align-self: flex-start;
+    font-family: vazir-med;
+    
+    width: 50%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;  
+}
+
+
+
+main .hero .left-part {
+    width: 50%;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-image: url(&quot;https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg&quot;); */
+    /* background-position: 0 10%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+
+main .hero .left-part img{
+    width: 80%;
+}
+
+main .download{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .download img{
+    width: 160px;
+    position: relative;
+    top: 100px;
+
+}
+
+main .container .aps{
+    padding: 120px 30px;
+    background-color: #f2f5f8;
+    display: flex;
+    /* flex-direction: ; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 180px;
+    /* align-items: baseline; */
+    
+}
+
+ 
+main .container .aps .card{
+    width: 292px;
+    height: 90px;
+    padding: 8px 0;
+    margin: 12px;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    /* align-self: center; */
+}
+
+main .container .aps .text {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+    main .container .aps .card h3{
+        font-size: 16px;
+        color: #3f3f3f;
+        font-family: vazir-med;
+        width: 150px;
+    }
+
+main .container .aps .card p{
+    position: absolute;
+    right: 70px;
+    padding-top: 30px;
+    font-size: 12px;
+    color: #3f3f3f;
+    font-family: vazir-med;
+}

@@ -1,0 +1,92 @@
+@media only screen and (max-width:560px) {
+    main header .nav1 {
+        display: none;
+
+    }
+
+    main header .nav2 {
+        padding: 10px;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        z-index: 1;
+    }
+
+    main header .nav2 .svg1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    main .hero .rigth-part {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 10px;
+    }
+
+    main .hero .rigth-part h1 {
+        /* padding: 0 0 0px 0; */
+        font-size: 22px;
+        color: white;
+        font-family: vazir-bold;
+        text-align: center;
+    }
+
+    main .hero .rigth-part p {
+        font-size: 16px;
+        color: #fff;
+    }
+
+
+    main .hero .rigth-part .button button {
+        /* margin-top: 130px; */
+        align-self: flex-start;
+        font-size: 15px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        padding: 10px;
+        outline: none;
+        background-color: #fff;
+
+    }
+
+    main .hero .rigth-part .form {
+        display: none;
+    }
+
+    main .hero .left-part {
+        display: none;
+    }
+
+    main .download{
+        display: none
+    }
+
+    main .container .aps .card{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .container .aps .text h2{
+        font-size: 15px
+    }
+
+    main .container .aps .card h3{
+        font-size: 10px;
+        color: #3f3f3f;
+        font-family: vazir-med;
+        width: 40px;
+    }
+
+    main .container .aps .card p{
+        display: none;
+    }
+
+}
